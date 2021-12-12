@@ -26,6 +26,11 @@ const Landing = () => {
                         <img src='https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png' alt="Jacob Von Ogden Github" className='home-hero__social-icon' />
                     </a>
                 </div>
+                <div className='home-hero__social'>
+                    <a href='https://twitter.com/JakeVonOgden1' className='home-hero__social-icon-link home-hero__social-icon-link--bd-none' rel='noreferrer' target='_blank'>
+                        <img src='https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png' alt="Jacob Von Ogden Twitter" className='home-hero__social-icon' />
+                    </a>
+                </div>
             </div>
             <svg class="arrows">
 				<path class="a1" d="M0 0 L30 32 L60 0"></path>

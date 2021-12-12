@@ -69,7 +69,7 @@
 .home-hero__socials {
     position: absolute;
     top: 50%;
-    border: 2px solid rgba(51, 51, 51, 0.7);
+    border: 2px solid #eee;
     transform: translateY(-50%);
 }
 
@@ -79,20 +79,22 @@
 
 .home-hero__social-icon {
     width: 100%;
-    filter:brightness(0%);
 }
 
 .home-hero__social-icon-link {
     width: 100%;
     display: block;
     padding: 1.2rem;
-    border-bottom: 1px solid rgba(51, 51, 51, 0.7);
-    border-top: 1px solid rgba(51, 51, 51, 0.7);
+    border-bottom: 2px solid #eee;
     transition: .2s ease-in-out;
 }
 
 .home-hero__social-icon-link:hover {
     background:rgb(50 50 50 / 5%);
+}
+
+.home-hero__social-icon-link--bd-none {
+    border-bottom: 0;
 }
 
 .arrows {

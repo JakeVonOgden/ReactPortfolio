@@ -17,6 +17,9 @@ const Footer = () => {
                            <a rel='noreferrer' target='_blank' href='https://github.com/JakeVonOgden'>
                                <img className='main-footer__icon' src='https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png' alt='Jacob Von Ogden Github Profile' />
                            </a>
+                           <a rel='noreferrer' target='_blank' href='https://twitter.com/JakeVonOgden1'>
+                               <img className='main-footer__icon' src='https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png' alt='Jacob Von Ogden Twitter Profile' />
+                           </a>
                        </div>
                    </div>
                    <div className='main-footer__row main-footer__row-2'>
