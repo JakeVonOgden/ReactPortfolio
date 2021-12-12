@@ -3,7 +3,7 @@ import './landing.css';
 
 const Landing = () => {
     return (
-        <section className='home-hero' id='landing'>
+        <section id='landing' className='home-hero'>
             <div className='home-hero__content'>
                 <h1 className='heading-primary'>Hey, I'm Jacob Von Ogden</h1>
                 <div className='home-hero__info'>
