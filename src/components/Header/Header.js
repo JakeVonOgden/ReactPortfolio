@@ -11,16 +11,16 @@ const Header = () => {
                 <div className='header__main'>
                     <ul className='header__links'>
                         <li class='header__link-wrapper'>
-                            <a href='/' className='header__link'>Home</a>
+                            <a href='ReactPortfolio/' className='header__link'>Home</a>
                         </li>
                         <li class='header__link-wrapper'>
-                            <a href='/#about' className='header__link'>About</a>
+                            <a href='ReactPortfolio/#about' className='header__link'>About</a>
                         </li>
                         <li class='header__link-wrapper'>
-                            <a href='/#projects' className='header__link'>Projects</a>
+                            <a href='ReactPortfolio/#projects' className='header__link'>Projects</a>
                         </li>
                         <li class='header__link-wrapper'>
-                            <a href='/#contact' className='header__link'>Contact</a>
+                            <a href='ReactPortfolio/#contact' className='header__link'>Contact</a>
                         </li>
                     </ul>
                     <div className='header__main-ham-menu-content d-none'>
