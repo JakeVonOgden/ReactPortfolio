@@ -23,7 +23,7 @@ const About = () => {
                                 I'm open to <strong>Job</strong> oppurtunities where i can contribute, learn and grow. If you have a good oppurtunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
                             </p>
                         </div>
-                        <a href='/#contact'className='btn btn--med btn--theme dynamicBgClr'>Contact</a>
+                        <a href='#contact'className='btn btn--med btn--theme dynamicBgClr'>Contact</a>
                     </div>
                     <div className='about__content-skills'>
                         <h3 className='about__content-title'>My Skills</h3>
