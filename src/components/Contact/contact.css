@@ -1,5 +1,17 @@
 .contact {
-    background: url('../../assets/abstractImage.jpg');
+    background:linear-gradient(to right,rgba(0,128,96,.8),rgba(0,128,96,.8)), url('https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg');
+}
+
+.heading-sec__main--lt {
+    color: #fff;
+}
+
+.heading-sec__main--lt::after {
+    background: #fff !important;
+}
+
+.heading-sec__sub--lt {
+    color: #fff;
 }
 
 .contact__form-container {

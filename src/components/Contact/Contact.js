@@ -10,7 +10,7 @@ const Contact = () => {
                   <span className='heading-sec__sub heading-sec__sub--lt'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
               </h2>
               <div className='contact__form-container'>
-                  <form action='#' className='contact__form' method='post'>
+                  <form action='https://formspree.io/f/xzbobgyz' className='contact__form' method='post'>
                       <input type='hidden' name='form-name' value='form 1' />
                       <div className='contact__form-field'>
                         <label className='contact__form-label' for='name'>Name</label>

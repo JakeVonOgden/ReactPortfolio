@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header className='header'>
             <div className='header__content'>
@@ -11,16 +11,16 @@ const Header = () => {
                 <div className='header__main'>
                     <ul className='header__links'>
                         <li class='header__link-wrapper'>
-                            <a href='#landing' className='header__link'>Home</a>
+                            <a href='#landing' className='header__link' onClick={props.viewMain}>Home</a>
                         </li>
                         <li class='header__link-wrapper'>
-                            <a href='#about' className='header__link'>About</a>
+                            <a href='#about' className='header__link' onClick={props.viewMain}>About</a>
                         </li>
                         <li class='header__link-wrapper'>
-                            <a href='#projects' className='header__link'>Projects</a>
+                            <a href='#projects' className='header__link' onClick={props.viewMain}>Projects</a>
                         </li>
                         <li class='header__link-wrapper'>
-                            <a href='#contact' className='header__link'>Contact</a>
+                            <a href='#contact' className='header__link' onClick={props.viewMain}>Contact</a>
                         </li>
                     </ul>
                     <div className='header__main-ham-menu-content d-none'>
@@ -32,16 +32,16 @@ const Header = () => {
                     <div className='header__sm-menu-content'>
                         <ul className='header__sm-menu-links'>
                             <li className='header__sm-menu-links'>
-                                <a href='/' className='header__link'>Home</a>
+                                <a href='/' className='header__link' onClick={props.viewMain}>Home</a>
                             </li>
                             <li className='header__sm-menu-links'>
-                                <a href='/#about' className='header__link'>About</a>
+                                <a href='/#about' className='header__link' onClick={props.viewMain}>About</a>
                             </li>
                             <li className='header__sm-menu-links'>
-                                <a href='/#projects' className='header__link'>Projects</a>
+                                <a href='/#projects' className='header__link' onClick={props.viewMain}>Projects</a>
                             </li>
                             <li className='header__sm-menu-links'>
-                                <a href='/#contact' className='header__link'>Contact</a>
+                                <a href='/#contact' className='header__link' onClick={props.viewMain}>Contact</a>
                             </li>
                         </ul>
                     </div>

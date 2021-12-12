@@ -73,6 +73,12 @@
     margin-bottom: 4rem;
 }
 
+.about__content-details-para a {
+    color: #008060;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
 .btn--theme {
     background: #008060;
     color: #fff;
@@ -86,6 +92,7 @@
 .skills {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 
 .skills__skill {

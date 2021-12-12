@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../../assets/Resume.pdf';
 import './about.css';
 
 const About = () => {
@@ -6,18 +7,18 @@ const About = () => {
         <section id='about' className='about sec-pad'>
             <div className='main-container'>
                 <h2 className='heading heading-sec heading-sec__mb-med'>
-                    <span className='heading-sec__main'> About Me </span>
-                    <span className='heading-sec__sub'> Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</span>
+                    <span className='heading-sec__main'>About Me</span>
+                    <span className='heading-sec__sub'>Here you will find more information about me, what I do, and my current skills in terms of programming and technology</span>
                 </h2>
                 <div className='about__content'>
                     <div className='about__content-main'>
                         <h3 className='about__content-title'>Get to know me!</h3>
                         <div className='about__content-details'>
                             <p className='about__content-details-para'>
-                                I'm a <strong>Frontend Web Developer</strong> building the Front-end of websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
+                                I'm a <strong>Web Developer</strong> living out of Indianapolis, Indiana. I'm a very passionate person and I love to learn and hone my skills. Check out some of my work in the <strong>Projects</strong> section.
                             </p>
                             <p className='about__content-details-para'>
-                                I also like sharing content related to the stuff that I have learned over the years in <strong>Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a rel='noreferrer' href='https://www.linkedin.com/in/jacob-von-ogden-b3b191219/' target='_blank'>Linekedin</a> where I post useful content related to Web Development and Programming.
+                                I enjoy building everything from small-business sites to rich interactive web applications. I have experience with both front and back end, and love using React to build UI's.  Feel free to Connect or Follow me on my <a rel='noreferrer' href='https://www.linkedin.com/in/jacob-von-ogden-b3b191219/' target='_blank'>Linekedin</a>
                             </p>
                             <p className='about__content-details-para'>
                                 I'm open to <strong>Job</strong> oppurtunities where i can contribute, learn and grow. If you have a good oppurtunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
@@ -31,14 +32,16 @@ const About = () => {
                             <div className='skills__skill'>HTML</div>
                             <div className='skills__skill'>CSS</div>
                             <div className='skills__skill'>JavaScript</div>
+                            <div className='skills__skill'>TypeScript</div>
                             <div className='skills__skill'>PostgreSQL</div>
-                            <div className='skills__skill'>Express</div>
+                            <div className='skills__skill'>ExpressJS</div>
                             <div className='skills__skill'>React</div>
                             <div className='skills__skill'>Node</div>
                             <div className='skills__skill'>Bootstrap</div>
                             <div className='skills__skill'>GIT</div>
                             <div className='skills__skill'>Github</div>
                         </div>
+                        <a href={Resume} className='btn btn--med btn--theme dynamicBgClr' download>Resume</a>
                     </div>
                 </div>
             </div>
@@ -47,9 +50,3 @@ const About = () => {
 }
 
 export default About;
-
-                            
-
-
-
-

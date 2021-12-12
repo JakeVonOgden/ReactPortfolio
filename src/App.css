@@ -5,8 +5,29 @@
   scroll-behavior: smooth;
 }
 
-
-
 a {
   text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar 
+{
+  background: rgb(200 200 200);
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track 
+{
+  border-radius: 15px;
+}
+ /* Handle */
+::-webkit-scrollbar-thumb 
+{
+  background:#008060;
+  border-radius: 15px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+  background:#008060;
 }

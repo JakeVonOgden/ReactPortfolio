@@ -8,7 +8,7 @@ const Landing = () => {
                 <h1 className='heading-primary'>Hey, I'm Jacob Von Ogden</h1>
                 <div className='home-hero__info'>
                     <p className='text-primary'>
-                        A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
+                        I'm a frontend focused web developer living out of Indianapolis, Indiana. I enjoy building everything from small-business sites to rich interactive web apps.
                     </p>
                 </div>
                 <div className='home-hero__cta'>
@@ -32,11 +32,13 @@ const Landing = () => {
                     </a>
                 </div>
             </div>
-            <svg class="arrows">
-				<path class="a1" d="M0 0 L30 32 L60 0"></path>
-				<path class="a2" d="M0 20 L30 52 L60 20"></path>
-				<path class="a3" d="M0 40 L30 72 L60 40"></path>
-			</svg>
+            <a href='#about'>
+                <svg class="arrows">
+                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                </svg>
+            </a>
         </section>
     )
 }
