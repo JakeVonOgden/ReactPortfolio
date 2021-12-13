@@ -1,4 +1,5 @@
 import React, {useState}   from 'react';
+import Logo from '../../assets/favicon.ico';
 import './header.css';
 
 const Header = (props) => {
@@ -12,6 +13,9 @@ const Header = (props) => {
         <header className='header'>
             <div className='header__content'>
                 <div className='header__logo-container'>
+                    <div className='header__logo-img-cont'>
+                        <img src={Logo} alt='Jacob Von Ogden Logo Img' className='header__logo-img' />
+                    </div>
                     <div className='header__logo-content'>Jacob Von Ogden</div>
                 </div>
                 <div className='header__main'>
