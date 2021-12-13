@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {useState}   from 'react';
 import './header.css';
 
 const Header = (props) => {
+    const [smActive, setSmActive] = useState(false);
+    
+    const hamMenuClick = () => {
+        setSmActive(prev => !prev)
+    }
+    
     return (
         <header className='header'>
             <div className='header__content'>
@@ -23,25 +29,29 @@ const Header = (props) => {
                             <a href='#contact' className='header__link' onClick={props.viewMain}>Contact</a>
                         </li>
                     </ul>
-                    <div className='header__main-ham-menu-content d-none'>
+                    <div onClick={hamMenuClick} className='header__main-ham-menu-content'>
+                    {smActive 
+                    ?
+                        <img src='https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg' alt='hamburger menu close' className='header__main-ham-menu-close' />
+                    :
                         <img src='https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg' alt='hamburger menu' className='header__main-ham-menu' />
-                        <img src='https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg' alt='hamburger menu close' className='header__main-ham-menu-close d-none' />
+                    }
                     </div>
                 </div>
-                <div className='header__sm-menu'>
+                <div className={`header__sm-menu ${smActive ? 'header__sm-menu--active' : ''}`}>
                     <div className='header__sm-menu-content'>
                         <ul className='header__sm-menu-links'>
-                            <li className='header__sm-menu-links'>
-                                <a href='/' className='header__link' onClick={props.viewMain}>Home</a>
+                            <li className='header__sm-menu-link' onClick={hamMenuClick}>
+                                <a href='#landing' onClick={props.viewMain}>Home</a>
                             </li>
-                            <li className='header__sm-menu-links'>
-                                <a href='/#about' className='header__link' onClick={props.viewMain}>About</a>
+                            <li className='header__sm-menu-link' onClick={hamMenuClick}>
+                                <a href='/#about' onClick={props.viewMain}>About</a>
                             </li>
-                            <li className='header__sm-menu-links'>
-                                <a href='/#projects' className='header__link' onClick={props.viewMain}>Projects</a>
+                            <li className='header__sm-menu-link' onClick={hamMenuClick}>
+                                <a href='/#projects' onClick={props.viewMain}>Projects</a>
                             </li>
-                            <li className='header__sm-menu-links'>
-                                <a href='/#contact' className='header__link' onClick={props.viewMain}>Contact</a>
+                            <li className='header__sm-menu-link' onClick={hamMenuClick}>
+                                <a href='/#contact' onClick={props.viewMain}>Contact</a>
                             </li>
                         </ul>
                     </div>
