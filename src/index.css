@@ -160,10 +160,26 @@ body {
     }
 
     .project-cs-hero__content {
-        padding: 19rem 0 13rem 0;
+        padding: 15rem 0 13rem 0;
         margin: auto;
         position: static;
         transform: translate(0,0);
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links-wrapper {
+       align-items: center;
+    }
+
+    .links-wrapper a:last-child {
+        margin-bottom: 0;
+    }
+
+    .title-wrapper {
+        padding: 0;
     }
 
     .project-details__content-title {
