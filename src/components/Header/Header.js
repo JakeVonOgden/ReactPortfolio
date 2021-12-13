@@ -14,9 +14,13 @@ const Header = (props) => {
             <div className='header__content'>
                 <div className='header__logo-container'>
                     <div className='header__logo-img-cont'>
-                        <img src={Logo} alt='Jacob Von Ogden Logo Img' className='header__logo-img' />
+                        <a href='#landing'>
+                            <img src={Logo} alt='Jacob Von Ogden Logo Img' className='header__logo-img' />
+                        </a>
                     </div>
-                    <div className='header__logo-content'>Jacob Von Ogden</div>
+                    <div className='header__logo-content'>
+                        <a href='#landing' className='logo'>Jacob Von Ogden</a>
+                    </div>
                 </div>
                 <div className='header__main'>
                     <ul className='header__links'>

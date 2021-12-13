@@ -6,6 +6,14 @@
     box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
 }
 
+.logo {
+    color: black;
+}
+
+.logo:hover {
+    color:#008060;
+}
+
 .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
