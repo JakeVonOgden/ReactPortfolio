@@ -45,13 +45,13 @@ const Header = (props) => {
                                 <a href='#landing' onClick={props.viewMain}>Home</a>
                             </li>
                             <li className='header__sm-menu-link' onClick={hamMenuClick}>
-                                <a href='/#about' onClick={props.viewMain}>About</a>
+                                <a href='#about' onClick={props.viewMain}>About</a>
                             </li>
                             <li className='header__sm-menu-link' onClick={hamMenuClick}>
-                                <a href='/#projects' onClick={props.viewMain}>Projects</a>
+                                <a href='#projects' onClick={props.viewMain}>Projects</a>
                             </li>
                             <li className='header__sm-menu-link' onClick={hamMenuClick}>
-                                <a href='/#contact' onClick={props.viewMain}>Contact</a>
+                                <a href='#contact' onClick={props.viewMain}>Contact</a>
                             </li>
                         </ul>
                     </div>
