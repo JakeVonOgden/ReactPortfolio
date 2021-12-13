@@ -48,10 +48,12 @@
 }
 
 .header__main-ham-menu-content {
+    cursor: pointer;
     display: none;
     width: 3rem;
     padding: 2.2rem 0;
 }
+
 
 .d-none {
     display: none;
@@ -61,8 +63,16 @@
     width: 100%;
 }
 
+.header__main-ham-menu:hover {
+    filter: brightness(2);
+}
+
 .header__main-ham-menu-close {
     width: 100%;
+}
+
+.header__main-ham-menu-close:hover {
+    filter: brightness(2);
 }
 
 .header__sm-menu {
