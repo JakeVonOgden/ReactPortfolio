@@ -8,6 +8,7 @@ const About = (props) => {
     const initialClick = () => {
         setHide(true);
     }
+    
     return (
         <section id='about' className='about sec-pad'>
             <div className='main-container'>
@@ -47,14 +48,24 @@ const About = (props) => {
                             <div className='skills__skill'>Github</div>
                         </div>
                         <a href={Resume} className='btn btn--med btn--theme dynamicBgClr resume-btn-mobile' download>Resume</a>
-                        {
-                            hide === false ?
-                            
+                        {hide === false 
+                            ?
                             <button className='btn btn--med btn--theme dynamicBgClr resume-btn' onClick={initialClick}>Resume</button>
                             :
                             <>
-                            <a href={Resume} className='btn btn--med btn--theme dynamicBgClr resume-btn' download>Download</a>
-                            <a href='#about' type='button' className='btn btn--med btn--theme dynamicBgClr resume-btn' onClick={() => {props.viewCaseStudy('Resume')}}>View</a>
+                                <a 
+                                    href={Resume} 
+                                    className='btn btn--med btn--theme dynamicBgClr resume-btn' 
+                                    download>
+                                    Download
+                                </a>
+                                <a 
+                                    href='#about'
+                                    type='button' 
+                                    className='btn btn--med btn--theme dynamicBgClr resume-btn' 
+                                    onClick={() => {props.viewCaseStudy('Resume')}}>
+                                    View
+                                </a>
                             </>
                         }
                     </div>
@@ -64,4 +75,4 @@ const About = (props) => {
     )
 }
 
-export default About;
+export default About;                                          
