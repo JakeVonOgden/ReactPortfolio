@@ -21,7 +21,7 @@ const About = () => {
                                 I enjoy building everything from small-business sites to rich interactive web applications. I have experience with both front and back end, and love using React to build UI's.  Feel free to Connect or Follow me on my <a rel='noreferrer' href='https://www.linkedin.com/in/jacob-von-ogden-b3b191219/' target='_blank'>Linekedin</a>
                             </p>
                             <p className='about__content-details-para'>
-                                I'm open to <strong>Job</strong> oppurtunities where i can contribute, learn and grow. If you have a good oppurtunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
+                                I'm open to <strong>Job</strong> oppurtunities where i can contribute, learn, and grow. If you have a good oppurtunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
                             </p>
                         </div>
                         <a href='#contact'className='btn btn--med btn--theme dynamicBgClr'>Contact</a>
