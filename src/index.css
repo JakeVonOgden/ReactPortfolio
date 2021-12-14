@@ -214,4 +214,12 @@ body {
         display: block;
     }
 
+    .resume-btn {
+        display: none;
+    }
+
+    .resume-btn-mobile {
+        display:inline-block;
+    }
+
 }

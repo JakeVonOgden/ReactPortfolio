@@ -19,7 +19,7 @@ const Header = (props) => {
                         </a>
                     </div>
                     <div className='header__logo-content'>
-                        <a href='#landing' className='logo'>Jacob Von Ogden</a>
+                        <a href='#landing' className='logo' onClick={props.viewMain}>Jacob Von Ogden</a>
                     </div>
                 </div>
                 <div className='header__main'>

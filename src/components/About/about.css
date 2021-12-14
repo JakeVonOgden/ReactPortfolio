@@ -105,3 +105,12 @@
     font-weight: 600;
     color: #666;
 }
+
+.resume-btn {
+    margin-right: 1rem;
+    line-height: 1.5;
+}
+
+.resume-btn-mobile {
+    display: none;
+}

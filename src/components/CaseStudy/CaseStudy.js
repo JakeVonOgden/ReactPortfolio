@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import './casestudy.css'
-import {GPT3, Juniper, Pokedex, Redhawk} from './Projects/index';
+import {GPT3, Juniper, Pokedex, Redhawk, Resume} from './Projects/index';
 
 const CaseStudy = (props) => {
     
@@ -12,6 +12,8 @@ const CaseStudy = (props) => {
     
     return (
         <>
+           {study === "Resume" ? <Resume viewMain={props.viewMain}/>: null}        
+           
            {study === "RedHawk" ? <Redhawk viewMain={props.viewMain}/> : null}
            
            {study === "Pokedex" ? <Pokedex viewMain={props.viewMain} /> : null}

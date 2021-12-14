@@ -107,3 +107,15 @@
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px);
 }
+
+.resume {
+   padding: 0;
+   padding-top: 3rem;
+   display: flex;
+   flex-direction: row;
+}
+
+.resume-img {
+    border-radius: 15px;
+    width: 90%;
+}

@@ -5,7 +5,7 @@ const Main = (props) => {
     return (
         <>
             <Landing />
-            <About />
+            <About viewCaseStudy={props.viewCaseStudy} />
             <Projects viewCaseStudy={props.viewCaseStudy} />
             <Contact />
         </>

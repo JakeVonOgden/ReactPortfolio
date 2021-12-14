@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Resume from '../../assets/Resume.pdf';
 import './about.css';
 
-const About = () => {
+const About = (props) => {
+    const [hide, setHide] = useState(false)
+
+    const initialClick = () => {
+        setHide(true);
+    }
     return (
         <section id='about' className='about sec-pad'>
             <div className='main-container'>
@@ -41,7 +46,17 @@ const About = () => {
                             <div className='skills__skill'>GIT</div>
                             <div className='skills__skill'>Github</div>
                         </div>
-                        <a href={Resume} className='btn btn--med btn--theme dynamicBgClr' download>Resume</a>
+                        <a href={Resume} className='btn btn--med btn--theme dynamicBgClr resume-btn-mobile' download>Resume</a>
+                        {
+                            hide === false ?
+                            
+                            <button className='btn btn--med btn--theme dynamicBgClr resume-btn' onClick={initialClick}>Resume</button>
+                            :
+                            <>
+                            <a href={Resume} className='btn btn--med btn--theme dynamicBgClr resume-btn' download>Download</a>
+                            <a href='#about' type='button' className='btn btn--med btn--theme dynamicBgClr resume-btn' onClick={() => {props.viewCaseStudy('Resume')}}>View</a>
+                            </>
+                        }
                     </div>
                 </div>
             </div>
