@@ -25,7 +25,7 @@ const Footer = () => {
                    <div className='main-footer__row main-footer__row-2'>
                        <h2 className='heading heading-sm text-It'>Jacob Von Ogden</h2>
                        <p className='main-footer__short-desc'>
-                            Web Developer living out of Indianapolis, Indiana. Open to Job oppurtunities where i can contribute, learn and grow. If you have a good oppurtunity that matches my skills and experience then don't hesitate to contact me.
+                            Web Developer living out of Indianapolis, Indiana. Open to Job oppurtunities where i can contribute, learn and grow.
                        </p> 
                    </div>
                </div>
