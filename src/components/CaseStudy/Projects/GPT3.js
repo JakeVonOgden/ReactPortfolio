@@ -13,7 +13,7 @@ const GPT3 = (props) => {
                 </div>
                 <div className='links-wrapper'>
                     <h1 className='heading-primary'>GPT3 Layout</h1>
-                    <a href='GPT3 Live: https://jakevonogden.github.io/Modern-React-UI-UX-Study/' rel='noreferrer' target='_blank' className='btn btn--bg'>Live Link</a>
+                    <a href='https://jakevonogden.github.io/Modern-React-UI-UX-Study/' rel='noreferrer' target='_blank' className='btn btn--bg'>Live Link</a>
                     <a href='https://github.com/JakeVonOgden/Modern-React-UI-UX-Study' rel='noreferrer' target='_blank' className='btn btn--bg'>See Code</a>
                 </div>
            </div>
